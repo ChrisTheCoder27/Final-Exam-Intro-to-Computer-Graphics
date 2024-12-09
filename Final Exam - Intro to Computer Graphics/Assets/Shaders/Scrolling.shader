@@ -22,11 +22,11 @@ Shader "Scrolling"
 
         struct appdata
         {
-            float4 vertex: POSITION;
-            float3 normal: NORMAL;
-            float4 texcoord: TEXCOORD0;
-            float4 texcoord1: TEXCOORD1;
-            float4 texcoord2: TEXCOORD2;
+            float4 vertex : POSITION;
+            float3 normal : NORMAL;
+            float4 texcoord : TEXCOORD0;
+            float4 texcoord1 : TEXCOORD1;
+            float4 texcoord2 : TEXCOORD2;
         };
 
         float _Freq;
